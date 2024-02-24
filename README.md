@@ -1,3 +1,8 @@
+# HermesProxy-wotlk
+
+This fork is an attempt at allowing the WOTLK Classic client to work on private servers. I find the legacy client not very well functioning, and difficult to work with on Apple Silicon Macs aswell.
+Only Warmane will be tested.
+
 # HermesProxy ![Build](https://github.com/WowLegacyCore/HermesProxy/actions/workflows/Build_Proxy.yml/badge.svg)
 
 This project enables play on existing legacy WoW emulation cores using the modern clients. It serves as a translation layer, converting all network traffic to the appropriate format each side can understand.
