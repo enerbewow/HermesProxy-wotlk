@@ -27,7 +27,7 @@ namespace HermesProxy
                 case ClientVersionBuild.V2_4_3_8606:
                     return true;
                 case ClientVersionBuild.V3_3_5a_12340:
-                    return false;
+                    return true;
             }
 
             return false;
@@ -90,6 +90,8 @@ namespace HermesProxy
                 case ClientVersionBuild.V1_14_2_42214:
                 case ClientVersionBuild.V1_14_2_42597:
                     return true;
+                case ClientVersionBuild.V3_3_5a_12340:
+                    return true;
             }
 
             return false;
@@ -101,6 +103,7 @@ namespace HermesProxy
             {
                 1 => ClientVersionBuild.V1_12_1_5875,
                 2 => ClientVersionBuild.V2_4_3_8606,
+                //3 => ClientVersionBuild.V3_4_3_30403,
                 _ => ClientVersionBuild.Zero,
             };
         }
@@ -581,6 +584,8 @@ namespace HermesProxy
                 case ClientVersionBuild.V2_5_3_42328:
                 case ClientVersionBuild.V2_5_3_42598:
                     return ClientVersionBuild.V2_5_3_41750;
+                case ClientVersionBuild.V3_3_5a_12340:
+                    return ClientVersionBuild.V3_3_5a_12340;
             }
             return ClientVersionBuild.Zero;
         }
